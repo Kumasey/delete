@@ -311,7 +311,7 @@ ul{
     background-color: black;
 }
 .subscribe{
-    border: 3px solid red;
+    
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -365,7 +365,7 @@ input:focus {
 
 .footera{
     height: 80%;
-    border: 3px solid blue;
+    
     display: flex;
     justify-content: space-between;
     margin: 25px;
