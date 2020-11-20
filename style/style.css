@@ -1,0 +1,454 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    color: black;
+    width: 1440px;
+    height: 3272px;
+    font-size: 19px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p{
+    text-align: center;
+}
+
+
+/* the header (logo and navigation)  */
+
+.header{
+    height: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  rgb(221, 216, 216);  
+}
+
+.sub-header1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;  
+    align-items: center;
+    
+}
+.sub-header2{
+    width: 20%;
+    }
+
+.logo{
+    width:250px ;
+    height: 245px;
+}
+
+#category-text{
+    margin-left: 50px;
+}
+
+#li{
+    display: inline;
+    justify-content: flex-end;
+    margin-right: 5%;    
+}
+
+/* main container or content*/
+
+.main-container{
+    height: 83%;
+    
+    
+}
+
+.first-part{
+    height: 19%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#sub-part{
+    margin: 0 auto;
+    width: 75%;   
+    padding-top: 8% ;
+}
+form{
+    margin-top: 40px;
+}
+
+.intro{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0 75px;
+}
+input{
+    padding-left: 30px;
+}
+
+
+#search-input{
+    width: 83%;
+    height: 50px;
+    border-radius: 15px 0 0 15px;
+    border: 0px;
+    background-color: grey;
+    opacity: 3;
+    font-size: 20px;   
+}
+
+#search-btn{
+    width: 15%;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius:0 15px 15px 0;
+}
+
+.second-part{
+    height: 30%;
+    text-align: center;
+    align-items: center;
+    width: 95%;
+    background-color: rgb(119, 110, 110);
+    
+}
+
+.gallery{
+    margin: 5px auto;
+    width: 95%;
+    padding-top: 50px;
+    height: 60%;
+    
+}
+
+#intro{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+
+.picture-gallery{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.pic-demo{
+    width:55% ;
+    height: 55%;
+    border-radius: 100%;
+}
+
+.third-part{
+    height: 20%; 
+    align-items: center;    
+}
+
+.flash-sales{
+    background-color:rgba(206, 205, 152, 0.479) ;
+    width: 95%;
+    height: 60%;
+    margin: 4% auto;
+    position: relative;
+}
+
+.flash-heading{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#flash-btxt{
+    margin: 1.5% 0 0 2%;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+#flash-stxt{
+    margin: 1.5% 3% 0 0;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+.flash-gallery{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.flash-box{
+    background-color: rgb(97, 90, 90);
+    width: 19%;
+    height: 65%;
+    border-radius: 2%;
+    margin-top: -3%;
+    
+}
+
+.pic-dem{
+   width: 45%;
+   height: 40%;
+   margin: 10% 0 0 25%;
+}
+
+
+.fourth-part{
+    height: 30%;  
+    margin-top: 0;  
+}
+
+.firstfour{
+    display: flex;
+    height: 70%;
+    width: 95%;
+    margin: 0 auto 3% auto;
+    justify-content: space-between;
+}
+
+.firbox{
+    border-radius: 15px;
+    width: 49%;
+    background-color: lightslategray;
+    position: relative;
+}
+
+.firbox-heading{
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+}
+
+.firbox-btxt{
+    margin: 1.5% 0 0 2%;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.firbox-stxt{
+    margin: 1.5% 3% 0 0;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.firbox-gallery{
+    display: flex;
+    justify-content: space-around;
+    height: 75%;    
+    margin-top: 1%;
+}
+
+.firbox-box{
+    background-color: brown;
+    width: 32%;
+    
+    height: 100%;
+    border-radius: 10px;
+}
+
+.fir-img{
+    width: 95%;
+    height: 70%;
+    margin: 3%;
+    border-radius: 15px;   
+}
+
+.next{
+    font-size: 40px;
+    position: absolute;
+    left: 95%;
+    top: 50%;
+    border: 0;
+    border-radius: 100%;
+    background-color: lightgrey;
+}
+
+.previous{
+    font-size: 40px;
+    position: absolute;
+    right: 95%;
+    top: 50%;
+    border: 0;
+    border-radius: 100%;
+    background-color: lightgrey;
+}
+
+.secondfour{
+   
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+
+#closing-txt{
+    font-size: 30px;
+    padding: 0 5%;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* footer last part*/
+
+.footer{
+    height: 15%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.sub-footer{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    background:transparent;
+    color: black;        
+}
+
+.contact{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2%;
+}
+
+.font-mail{
+    margin-right: 25px;
+    color: white;
+    padding:  15px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.subscribe{    
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-detail{
+    width: 25%;
+    margin-left: 10px;
+}
+
+#new-form{
+    width: 75%;    
+    height: 50px;
+    margin: 0 auto;
+}
+
+#sub-btn{
+    width: 33%;
+    height: 100%;
+    border: 0px;
+    border-radius: 15px;
+    background-color: cadetblue;
+    font-size: 20px;
+}
+
+#sub-inp{
+    height: 100%;
+    width: 65%;
+    border-radius: 5px 0 0 5px;
+    border: 0px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#sub-text{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.list-footer{
+    height: 80%;
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.footera{
+    height: 80%;    
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+li{
+    list-style-type:none;
+    margin-left: 0;
+}
+.b{
+    width: 9%;
+}
+
+
+
+ul{
+    margin-right: 2%; 
+}
+
+.footerb{
+    height: 20%;
+}
+
+.copyright-text{
+    text-align: center;
+}
+
+.play-img{
+    font-size: 98px;
+    margin-right: 3%;
+}
+
+
+.a, .b, .c, .d{
+    width: 25%;
+}
+
+#footer-head{
+    text-align: left;
+    margin-bottom: 3%;
+}
+.list-footer:li{
+    color: red;
+}

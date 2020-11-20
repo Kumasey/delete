@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css">
     <title>EaziCart</title>
 </head>
 <body>
-    <div class="container">
+    
         <div class="header">
                 <div class="sub-header1">
-                        <img src="Eazicart2.png" alt="logo" class="logo">
-                        <p id="category-text">Categories </p>
+                       <a href="/"><img src="./img/Eazicart2.png" alt="logo" class="logo"></a> 
+                        <p id="category-text"><i class="fas fa-bars"></i>Categories </p>
                 </div>
                 <div class="sub-header2">
-                        <ul>
+                        <ul id="top">
                             <li id="li">Login</li>
                             <li id="li">Saved Items</li>
                             <li id="li">Help</li>
                         </ul>
                 </div>
         </div>
+
         <div class="main-container">
             <div class="first-part">
                 <div id="sub-part">
                     <p class="intro">Shop till you drop, Get the best deals and leave where you wanna.</p>
-                    
                         <form>
-                            <input type="text" id="search-btn"><button type="submit" id="submit-btn">Search</button>
+                            <input type="text" id="search-input"><button type="submit" id="search-btn">Search</button>
                         </form>
                     
                 </div>
@@ -39,24 +39,24 @@
                     <p id="intro">Browse Popular Categories</p>
                     <div class="picture-gallery">
                         <div>
-                            <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href="./category/mens.html"><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
+                           <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                        
                        
@@ -64,23 +64,23 @@
                     <div class="picture-gallery">
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                         <div>
                             <a href=""><img src="Eazicart.png" alt="demo" class="pic-demo"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="pic-text">Demo Name</p></a> 
                         </div>
                     </div>
                 </div>
@@ -95,19 +95,19 @@
                     <div class="flash-gallery">
                         <div class="flash-box">
                             <a href=""><img src="OIP.jpg" alt="demo" class="pic-dem"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="flash-text">Demo Name</p></a> 
                         </div>
                         <div class="flash-box">
                             <a href=""><img src="OIP.jpg" alt="demo" class="pic-dem"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="flash-text">Demo Name</p></a> 
                         </div>
                         <div class="flash-box">
                             <a href=""><img src="OIP.jpg" alt="demo" class="pic-dem"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="flash-text">Demo Name</p></a> 
                         </div>
                         <div class="flash-box">
                             <a href=""><img src="OIP.jpg" alt="demo" class="pic-dem"></a>
-                            <p>Demo Name</p>
+                            <a href=""><p id="flash-text">Demo Name</p></a> 
                         </div>
                         
                     </div>
@@ -122,8 +122,8 @@
                 <div class="firstfour">
                     <div class="firbox">
                         <div class="firbox-heading">
-                            <p id="firbox-btxt">Latest Deals</p>
-                            <p id="firbox-stxt">View More</p>
+                            <p class="firbox-btxt">Latest Deals</p>
+                            <p class="firbox-stxt">View More</p>
                         </div>
                         <div class="firbox-gallery">
                             <div class="firbox-box">
@@ -150,8 +150,8 @@
                     </div>
                     <div class="firbox">
                         <div class="firbox-heading">
-                            <p id="firbox-btxt">Weekly Discounts</p>
-                            <p id="firbox-stxt">View More</p>
+                            <p class="firbox-btxt">Weekly Discounts</p>
+                            <p class="firbox-stxt">View More</p>
                         </div>
                         <div class="firbox-gallery">
                             <div class="firbox-box">
@@ -185,7 +185,6 @@
             
             </div>
 
-        
         </div>
 
         <div class="footer">
@@ -239,8 +238,8 @@
                     <div class="d">
                         <p id="footer-head">Download & Connect with us</p>
                         <div class="store-img">
-                            <img src="playstore.jpg" alt="playstore" id="play-img">
-                            <img src="apple.jpg" alt="apple" id="play-img">
+                           <a href=""><i class="fab fa-google-play play-img"></i></a> 
+                           <a href=""><i class="fab fa-apple play-img"></i></a> 
                         </div>
                     </div>
                 </div>
@@ -250,6 +249,6 @@
 
             </div>
         </div>
-    </div>
+    
 </body>
 </html>
