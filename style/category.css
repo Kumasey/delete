@@ -8,49 +8,195 @@
 body{
     color: black;
     width: 1440px;
-    height: 6000px;
-    font-size: 19px;
-    background-color:black;
+    height: 6500px;
+    
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
 .header{
-    height: 1%;
+    height: 2.5%;
+    align-items: center;
+    background:  orange;  
+}
+
+.fa-user, .fa-heart, .fa-bell, .fa-question-circle{
+    margin-right: 1%;
+    color: #5E6871;
+
+}
+.fa-angle-down{
+    color: #5E6871;
+    margin-left: 1.5%;
+
+}
+.fa-bars{
+    color: #000000;
+
+}
+
+
+
+.head1{
+    height: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:  rgb(221, 216, 216);  
-   
+    background: #FFFFFF;
 }
 
 .sub-header1{
-    display: flex;
-    justify-content: space-between;
-    width: 40%;  
-    align-items: center;
-    
+    width: 50%;
+    height: 100%;   
+    position: relative; 
 }
-.sub-header2{
-    width: 20%;
-    }
 
 .logo{
-    width:250px ;
-    height: 245px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: -037px;
+    left: 0;
+    
 }
 
-#category-text{
-    margin-left: 50px;
-}
+.sub-header2{
+    width: 50%;
+    justify-content: flex-end;
+    text-align: right;
+    height: auto;
+    
+
+    }
+
+ul{
+        margin-right: 2%; 
+    }
 
 #li{
-    display: inline;
-    justify-content: flex-end;
-    margin-right: 5%;    
+        display: inline;
+        justify-content: flex-end;
+        margin-right: 5%;   
+        font-family: Futura PT;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+ 
+    }
+
+.head2{
+        z-index: 1;
+        height: 50%;    
+        align-items: center;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(0deg, #FF8200, #FF8200);
+
+    }
+
+    .head2 ul li{
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
+
+    #below{
+        padding-top: 3%;
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+    }
+
+    
+#search-form{
+    height: 52px;
+    width: 773px;
+    margin-top: 2%;
+    border-radius: 20px;
+    display: flex;
+    border: 1px solid lightslategray;
+    margin-left: 35%;
+
+
+
 }
+button:focus {
+    border: 0px;
+    outline: none;
+}
+
+input:focus {
+    border: 0.1px;
+    outline: none;
+}
+
+
+
+#search-input{
+    width: 634px;
+    height: 51px;
+    border-radius: 15px 0 0 15px;
+    background-color: transparent;
+    opacity: 3;
+    font-size: 24px;  
+    border: 0;
+    padding-left: 3%;
+ 
+}
+input::placeholder{
+    padding-left: 3%;
+}
+
+#search-btn{
+    border: 0;
+    width: 139px;
+    height: 51.5px;
+    background: #FF8200;
+    color: antiquewhite;
+    border-radius:20px;
+    font-family: Futura PT;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-container{
     height: 86%;   
@@ -61,40 +207,79 @@ body{
 
 .first-part{
     height: 20%;
-    background: grey;
+    
     width: 95%;
     
 }
-#route-name{
-    padding:2% 0;
-    width: 95%;
+
+.cat-section-text{
+    margin-left:2.5% ;
+    padding-top: 3%;
 }
 
-#ads{
-    height: 10%;
-    width: 80%;
-    background-color: cornflowerblue;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    padding-top: 2%;
-    border-radius: 5%;
+#home, #category, #section, #sub-section, #main-section{
+    font-family: Futura PT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:black;
+}
+.fa-chevron-right{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
-#carousels{
-    width: 95%;
-    background: white;
-    height: 20%;
-    text-align: center;
-    padding-top: 5%; 
-    margin-bottom: 2%;
+#sub-part{
+    height: 33%;
+    background-image: url('../buy-shoee.jpg');
+    background-size: cover;
+    margin: 2% auto;
+    width: 95%;   
+    padding: 4%;
+
 }
+
+.intro{
+    text-align: left;
+    width: 33%;
+    margin: 0 7px;
+    color: white;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #top-picks{
     width: 95%;
-    background: lightcoral;
+    background: transparent;
     height: 50%;  
 
 }
@@ -106,15 +291,36 @@ body{
 }
 #picks-btxt{
     margin: 1.5% 0 0 2%;
-    font-size: 30px;
     font-weight: bolder;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0.02em; 
+    text-align: left;
+
 
 }
 #picks-stxt{
     margin: 1.5% 3% 0 0;
     font-size: 17px;
     cursor: pointer;
-    
+    width: 90px;  
+    color: #FF8200;
+}
+#txt{
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: underline;
+
+
+
 }
 
 
@@ -142,6 +348,8 @@ body{
 .top-discount{
     text-align: right;
     margin-top: 2%;
+    
+    
 }
 
 .top-img{
@@ -156,8 +364,28 @@ body{
     margin-top: 5%;
 }
 
-.top-name, .top-price, .top-old-price{
-    text-align: center;
+.top-name{
+    font-family: Futura PT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 9.5%;
+
+}
+
+ .top-price, .top-old-price{
+    font-family: Futura PT;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 9.5%;
+
 }
 
 .second-part{
@@ -169,8 +397,8 @@ body{
 }
 .category-section{
     width: 25%;
-    height: 65%;
-    background: lightgray;
+    height: 75%;
+    background: #F8F8F8;
     border-radius: 1%;
     padding-top: 5%;
 }
@@ -178,38 +406,75 @@ body{
 .products-section{
     width: 70%;
     height: 98%;
-    background: lightgray;
+   
     border-radius: 5px; 
 }
 
+
+
+
+
+
+
+
+
 .footer{
-    height: 12%;
+    height: 10%;
     display: flex;
     flex-direction: column;
+    background: #153B50;
+    
 }
 
 .sub-footer{
     width: 100%;
     height: 15%;
     display: flex;
-    background:transparent;
-    color: black;        
+
+    color: black;    
+    background: #849199 44%;
+    color: black;      
 }
 
 .contact{
-    width: 40%;
+    width: 30%;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 2%;
+    align-items: center;  
+}
+.text-mail{
+    margin-left: -89px;
+    
+}
+#support{
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+#mail{
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
 }
 
 .font-mail{
-    margin-right: 25px;
+    
     color: white;
     padding:  15px;
     border-radius: 100%;
-    background-color: black;
+    background-color: white;
 }
 
 .subscribe{    
@@ -223,34 +488,65 @@ body{
     width: 25%;
     margin-left: 10px;
 }
-
-#new-form{
-    width: 75%;    
-    height: 50px;
-    margin: 0 auto;
-}
-
-#sub-btn{
-    width: 33%;
-    height: 100%;
-    border: 0px;
-    border-radius: 15px;
-    background-color: cadetblue;
-    font-size: 20px;
-}
-
-#sub-inp{
-    height: 100%;
-    width: 65%;
-    border-radius: 5px 0 0 5px;
-    border: 0px;
-    background-color: transparent;
-    font-size: 20px;
+.fa-envelope{
+    color:#5E6871 ;
 }
 
 #sub-text{
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: -15px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+
+#new-form{
+    background: #E5E5E5;
+    height: 59px;
+    width: 585px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+#sub-btn{
+    height: 59px;
+    width: 235px;
+    border-radius: 20px;
+
+    
+    border: 0px;
+    
+    background: #FF8200;
+    color: #FFFFFF;
+
+    font-size: 20px;
+    font-family: Futura PT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#sub-inp{
+    height: 59px;
+    width: 350px;
+    padding-left: 1%;
+    border-radius: 10px 0 0 10px;
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
 }
 
 button:focus {
@@ -265,8 +561,12 @@ input:focus {
 
 .list-footer{
     height: 80%;
-    background-color: lightgrey;
     width: 100%;
+    color: #FFFFFF;
+}
+
+.fab{
+    color: #ffffff;
 }
 
 .footera{
@@ -296,6 +596,15 @@ ul{
 
 .copyright-text{
     text-align: center;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    
+
+    
 }
 
 .play-img{
@@ -306,15 +615,28 @@ ul{
 
 .a, .b, .c, .d{
     width: 25%;
+    font-family: Futura PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 #footer-head{
-    text-align: left;
     margin-bottom: 3%;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
-.list-footer:li{
-    color: red;
-}
+
 
 a{
     text-decoration: none;
@@ -326,13 +648,28 @@ a{
     font-weight: bolder;
     margin-left: 5%;
     margin-bottom: 5%;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
 
 }
 
 #category-name{
     margin-left: 5%;
-    font-weight: bold;
     margin-bottom: 5%;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
 
 }
 
@@ -341,6 +678,14 @@ a{
 }
 #category-list-item{
     margin-bottom: 4%;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .products-heading{
@@ -353,6 +698,17 @@ a{
 #product-category {
     margin-left: 3%;
 }
+#sort-div{
+    margin-right: 5%;
+    width: 290px;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 
 .products-details{
     align-items: center;
@@ -362,6 +718,15 @@ a{
     padding: 2.5% 0;
 }
 .products-count{
+    font-family: Futura PT;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 3%;
+
     
     width: 50%;
 }
@@ -379,7 +744,8 @@ h3{
     height: 15%;
     width: 10%;
     margin-left: 75%;
-    color: blue;
+    color: #FF8200;
+
 }
 
 #column-icon{
@@ -389,8 +755,7 @@ h3{
 
 .products-gallery{
     width: 95%;
-    height: 93%;
-    background: lightcoral;
+    height: 90%;
     display: flex;
     flex-wrap: wrap;
     padding-top: 4%;
@@ -401,7 +766,11 @@ h3{
     height: 20%;
     border-radius: 20px;
     margin-bottom: 4%;
-    
+    box-shadow:2px 05px #a5a3a1;  
+}
+
+.page-number{
+    height: 03%;
 }
 
 #inputs{
@@ -441,7 +810,6 @@ h5{
     width: 025%;
     height: 07%;
     margin: 9% 40%;
-    border: 3px solid red;
     
 }
 
@@ -464,6 +832,9 @@ h5{
     height: 100%;
     width: 15%; 
     align-items: center;
+    box-shadow:2px 05px #a5a3a1;  
+    border-radius: 9px;
+
 }
 .recent-box{
     display: flex;
@@ -474,7 +845,8 @@ h5{
 
 .recent-discount{
     text-align: right;
-    margin-top: 2%;
+    margin-top: 3%;
+    margin-right: 4%;
 }
 
 .recent-img{
@@ -494,19 +866,36 @@ h5{
 }
 #recent-btxt{
     margin: 1.5% 0 0 2%;
-    font-size: 30px;
     font-weight: bolder;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
 
 }
 #recent-stxt{
     margin: 1.5% 3% 0 0;
-    font-size: 17px;
     cursor: pointer;
+    width: 90px;  
+    color: #FF8200;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
     
 }
 #recent-picks{
     width: 95%;
-    background: lightcoral;
+    background: #F8F8F8;
+
     height: 70%;  
 
 }
@@ -528,8 +917,12 @@ h5{
 }
 
 #closing-txt{
-    font-size: 30px;
-    padding: 0 5%;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 23px;
+    letter-spacing: 0em;
     text-align: center;
-    font-weight: 400;
+    width: 1009px;
 }

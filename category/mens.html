@@ -4,33 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/category.css">
     <title>EaziCart | Men's Fashion</title>
 </head>
 <body>
     <div class="header">
-        <div class="sub-header1">
-            <a href="/"><img src="../img/Eazicart2.png" alt="logo" class="logo"></a> 
-                <p id="category-text"><i class="fas fa-bars"></i>Categories </p>
+        <div class="head1">
+            <div class="sub-header1">
+                <a href="/"><img src="../img/Eazicart2.png" alt="logo" class="logo"></a> 
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Search For Items, Brands And Juicy Items"><button type="submit" id="search-btn">Search</button>
+                </form>
+              </div>
+            <div class="sub-header2">
+                 <ul id="top">
+                     <li id="li"><i class="fas fa-user"></i></li>
+                     <li id="li"><i class="fas fa-heart"></i></li>
+                     <li id="li"><i class="fas fa-bell"></i></li>
+                     <li id="li"><i class="far fa-question-circle"></i>Help</li>
+                 </ul>
+            </div>
         </div>
-        <div class="sub-header2">
-                <ul id="top">
-                    <li id="li">Login</li>
-                    <li id="li">Saved Items</li>
-                    <li id="li">Help</li>
+        <div class="head2">
+            
+                <ul id="below">
+                    <li>All Categories<i class="fas fa-bars"></i></li>
+                    <li>Computer & Accessories</li>
+                    <li>Eletronics</li>
+                    <li>Fashion</li>
+                    <li>Home & Kitchen</li>
+                    <li>Office</li>
                 </ul>
+                 
         </div>
+            
     </div>
     <div class="main-container">
         <div class="first-part">
-            <p id="route-name">Home/Men's <span id="route"></span></p>
-            <div id="ads"> Special Ads </div>
-            <div id="carousels">Fashion pieces for every opportunity</div>
+            <div class="cat-section-text">
+                <p><span id="home">Home<i class="fas fa-chevron-right"></i></span><span id="category">Fashion<i class="fas fa-chevron-right"></i></span><span id="section">Men's Fashion<i class="fas fa-chevron-right"></i></span><span id="sub-section">Clothing<i class="fas fa-chevron-right"></i></span><span id="main-section">Shirts<i class="fas fa-chevron-right"></i></span></p>
+            </div>
+            <div id="sub-part">
+                <p class="intro">Fashion pieces for Every Occasion. Get the Best Deals from Selected Suppliers and Products.</p>
+                    
+            </div>
             <div id="top-picks">
                 <div class="picks-text">
                     <p id="picks-btxt">Top Picks for You</p>
-                    <p id="picks-stxt">View More</p>
+                    <p id="picks-stxt"><span id='txt'>See All</span> <i class="fas fa-chevron-right"></i></p>
+                    
                 </div>
+                <hr>
                 <div class="top-gallery">
                     <div class="top-pack">
                         <p class="top-discount">discount</p>
@@ -39,9 +64,9 @@
                             <img src="../OIP.jpg" alt="top-product" class="top-img">
                             <img src="../playstore.jpg" alt="vendor-logo" class="top-logo">
                         </div>
-                        <p class="top-name">product</p>
-                        <p class="top-price">New Price</p>
-                        <p class="top-old-price">Old Price</p>
+                        <p class="top-name">Product</p>
+                        <p class="top-price">₦ <span id="top-price-span"></span>00000</p>
+                        <p class="top-old-price">₦ <span id="top-old-price-span"></span>00000</p>
                     </div>
                     <div class="top-pack">
                         <p class="top-discount">discount</p>
@@ -50,9 +75,9 @@
                             <img src="../OIP.jpg" alt="top-product" class="top-img">
                             <img src="../playstore.jpg" alt="vendor-logo" class="top-logo">
                         </div>
-                        <p class="top-name">product</p>
-                        <p class="top-price">New Price</p>
-                        <p class="top-old-price">Old Price</p>
+                        <p class="top-name">Product</p>
+                        <p class="top-price">₦ <span id="top-price-span"></span>00000</p>
+                        <p class="top-old-price">₦ <span id="top-old-price-span"></span>00000</p>
                     </div>
                     <div class="top-pack">
                         <p class="top-discount">discount</p>
@@ -61,9 +86,9 @@
                             <img src="../OIP.jpg" alt="top-product" class="top-img">
                             <img src="../playstore.jpg" alt="vendor-logo" class="top-logo">
                         </div>
-                        <p class="top-name">product</p>
-                        <p class="top-price">New Price</p>
-                        <p class="top-old-price">Old Price</p>
+                        <p class="top-name">Product</p>
+                        <p class="top-price">₦ <span id="top-price-span"></span>00000</p>
+                        <p class="top-old-price">₦ <span id="top-old-price-span"></span>00000</p>
                     </div>
                     <div class="top-pack">
                         <p class="top-discount">discount</p>
@@ -72,9 +97,9 @@
                             <img src="../OIP.jpg" alt="top-product" class="top-img">
                             <img src="../playstore.jpg" alt="vendor-logo" class="top-logo">
                         </div>
-                        <p class="top-name">product</p>
-                        <p class="top-price">New Price</p>
-                        <p class="top-old-price">Old Price</p>
+                        <p class="top-name">Product</p>
+                        <p class="top-price">₦ <span id="top-price-span"></span>00000</p>
+                        <p class="top-old-price">₦ <span id="top-old-price-span"></span>00000</p>
                     </div>
                     <div class="top-pack">
                         <p class="top-discount">discount</p>
@@ -83,20 +108,9 @@
                             <img src="../OIP.jpg" alt="top-product" class="top-img">
                             <img src="../playstore.jpg" alt="vendor-logo" class="top-logo">
                         </div>
-                        <p class="top-name">product</p>
-                        <p class="top-price">New Price</p>
-                        <p class="top-old-price">Old Price</p>
-                    </div>
-                    <div class="top-pack">
-                        <p class="top-discount">discount</p>
-                        <div class="top-box">
-                            
-                            <img src="../OIP.jpg" alt="top-product" class="top-img">
-                            <img src="../playstore.jpg" alt="vendor-logo" class="top-logo">
-                        </div>
-                        <p class="top-name">product</p>
-                        <p class="top-price">New Price</p>
-                        <p class="top-old-price">Old Price</p>
+                        <p class="top-name">Product</p>
+                        <p class="top-price">₦ <span id="top-price-span"></span>00000</p>
+                        <p class="top-old-price">₦ <span id="top-old-price-span"></span>00000</p>
                     </div>
                     
                 </div>
@@ -123,14 +137,15 @@
                 <div class="products-heading">
                     <h1 id="product-category">Men's Fashion</h1>
                     <div id="sort-div">
-                        sort by: 
+                           <p>sort by: Popularity <i class="fas fa-angle-down"></i></p>  
                     </div>
                 </div>
+                <hr>
                 <div class="products-details">
                     <div class="products-count"> 
-                        <h3>
-                            <span>1000</span> Products Found
-                        </h3>
+                        <p>
+                            <span id="numbers-results">1000</span> Products Found
+                        </p>
                     </div>
                     <div class="display-icon">
                         <svg id="row-icon" aria-hidden="true" focusable="false" data-prefix="far" data-icon="th" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-th fa-w-16 fa-lg"><path fill="currentColor" d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM197.3 72h117.3v96H197.3zm0 136h117.3v96H197.3zm-40 232H52c-6.6 0-12-5.4-12-12v-84h117.3zm0-136H40v-96h117.3zm0-136H40V84c0-6.6 5.4-12 12-12h105.3zm157.4 272H197.3v-96h117.3v96zm157.3 0H354.7v-96H472zm0-136H354.7v-96H472zm0-136H354.7V72H472z" class=""></path></svg>
@@ -186,6 +201,7 @@
                    
 
                 </div>
+                <div class="page-number"></div>
                 
 
             </div>
@@ -194,20 +210,9 @@
             <div id="recent-picks">
                 <div class="recent-text">
                     <p id="recent-btxt">Top Picks for You</p>
-                    <p id="recent-stxt">View More</p>
+                    <p id="recent-stxt"><span id='txt'>See All</span> <i class="fas fa-chevron-right"></i></p>
                 </div>
                 <div class="recent-gallery">
-                    <div class="recent-pack">
-                        <p class="recent-discount">discount</p>
-                        <div class="recent-box">
-                            
-                            <img src="../OIP.jpg" alt="top-product" class="recent-img">
-                            <img src="../playstore.jpg" alt="vendor-logo" class="recent-logo">
-                        </div>
-                        <p class="recent-name">product</p>
-                        <p class="recent-price">New Price</p>
-                        <p class="recent-old-price">Old Price</p>
-                    </div>
                     <div class="recent-pack">
                         <p class="recent-discount">discount</p>
                         <div class="recent-box">
@@ -268,8 +273,7 @@
                 </div>
             </div>
             <div class="closing-txt">
-                <p id="closing-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a expedita cupiditate maiores omnis totam, nobis minima voluptas inventore vel, hic placeat aspernatur magnam laudantium! Exercitationem, quo nulla. Perferendis, quas.</p>
-
+                <p id="closing-txt">Eazycart.com is Nigeria’s leading online price comparison site that allows you to shop online for the best deals and lowest prices. Our mission is to help consumers use the power of information to easily find, compare and buy products online in less time and for the best price. You can read unbiased product reviews and compare prices online. Online shopping has never been as easy! Browse our large selection of fashion, clothing, consumer electronics, home and garden producsts now </p>
             </div>
         
         </div>
@@ -279,8 +283,8 @@
             <div class="contact">
                 <div class="font-mail"><i class="fas fa-envelope"></i></div>
                 <div class="text-mail">
-                    <p>E-Mail Support</p>
-                    <p>help@eazicart.com</p>
+                    <p id="support">E-Mail Support</p>
+                    <p id="mail">help@eazicart.com</p>
                 </div>
             </div>
             <div class="subscribe">

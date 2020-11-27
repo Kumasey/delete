@@ -1,20 +1,76 @@
+
+
+fetch("https://cors-anywhere.herokuapp.com/https://www.parsehub.com/api/v2/projects/tu0EydWHtXLh/last_ready_run/data?api_key=t3TaKT0tiiTo&format=json")
+.then((res)=>{
+    return res.json()
+})
+.then((data)=>{
+    console.log(data)
+})
+.catch(err=>{
+    console.log(err)
+})
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let productsGallery = document.querySelector(".products-gallery")
 
 
 let bill = []
 Promise.all([
-	fetch('https://www.parsehub.com/api/v2/projects/tmqFkbBX7hDj/last_ready_run/data?api_key=t3TaKT0tiiTo&format=json'),
-    fetch('https://www.parsehub.com/api/v2/projects/tfjTqAA9qRFr/last_ready_run/data?api_key=t3TaKT0tiiTo&format=json'),
+    fetch("https://cors-anywhere.herokuapp.com/https://www.parsehub.com/api/v2/projects/tu0EydWHtXLh/last_ready_run/data?api_key=t3TaKT0tiiTo&format=json"),
+    fetch("https://cors-anywhere.herokuapp.com/https://www.parsehub.com/api/v2/projects/tu0EydWHtXLh/last_ready_run/data?api_key=t3TaKT0tiiTo&format=json") 
 ]).then(function (responses) {
 	// Get a JSON object from each of the responses
 	return Promise.all(responses.map(function (response) {
 		return response.json();
 	}));
 }).then(function (datas) {
+    console.log(datas)
+    /*
     bill = datas[0].products.concat(datas[1].selection1)
     let tunji = {name :"tunji"}
     bill.concat(tunji)
    return console.log(bill)
+   
 }).then(function(){
     displayMen(bill)
 }).catch(function (error) {
@@ -53,4 +109,4 @@ function displayMen(bill){
     console.log(bill)
 }
 
-console.log("tujni")
+*/
